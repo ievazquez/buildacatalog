@@ -1,12 +1,9 @@
 package com.cakefactory.catalog;
 
 import com.cakefactory.catalog.model.Item;
-import org.springframework.stereotype.Component;
-
 import java.math.BigDecimal;
 import java.util.List;
 
-@Component
 public class InMemoryCatalog implements CatalogService {
 
     @Override
