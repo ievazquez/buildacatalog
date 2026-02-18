@@ -1,5 +1,6 @@
-package com.cakefactory.catalog;
+package com.cakefactory.catalog.persistence;
 
+import com.cakefactory.catalog.CatalogService;
 import com.cakefactory.catalog.model.Item;
 import org.springframework.stereotype.Component;
 

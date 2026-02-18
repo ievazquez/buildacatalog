@@ -1,4 +1,4 @@
-package com.cakefactory.catalog;
+package com.cakefactory.catalog.persistence;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "item")
+@Table(name = "catalog")
 public class ItemEntity {
 
     @Id

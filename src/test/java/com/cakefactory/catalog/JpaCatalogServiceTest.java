@@ -1,6 +1,9 @@
 package com.cakefactory.catalog;
 
 import com.cakefactory.catalog.model.Item;
+import com.cakefactory.catalog.persistence.ItemEntity;
+import com.cakefactory.catalog.persistence.ItemRepository;
+import com.cakefactory.catalog.persistence.JpaCatalogService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

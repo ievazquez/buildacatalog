@@ -1,7 +1,7 @@
 package com.cakefactory;
 
-import com.cakefactory.catalog.ItemEntity;
-import com.cakefactory.catalog.ItemRepository;
+import com.cakefactory.catalog.persistence.ItemEntity;
+import com.cakefactory.catalog.persistence.ItemRepository;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
