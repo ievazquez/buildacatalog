@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class CatalogTest {
 
 	@Autowired
-	Catalog catalog;
+	CatalogService catalog;
 
 	@Test
 	@DisplayName("returns a non-empty list of items")

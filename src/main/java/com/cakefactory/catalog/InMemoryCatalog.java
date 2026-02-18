@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 @Component
-public class InMemoryCatalog implements Catalog {
+public class InMemoryCatalog implements CatalogService {
 
     @Override
     public List<Item> getItems() {

@@ -4,6 +4,6 @@ import com.cakefactory.catalog.model.Item;
 
 import java.util.List;
 
-public interface Catalog {
+public interface CatalogService {
     List<Item> getItems();
 }
